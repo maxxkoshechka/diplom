@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DialogsController!{% endblock %}
+
+{% block body %}
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <div class="row">
+            <div class="col"></div>
+            <button type="submit" class="btn btn-lg btn-primary">Создать</button>
+        </div>
+
+    {{ form_end(form) }}
+{% endblock %}
